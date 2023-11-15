@@ -1,0 +1,27 @@
+.non-selectable {
+    user-select: none;
+  }
+  p {
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 1.5em;
+    }
+  /* Responsive background colors */
+  @media (max-width: 576px) {
+    body {
+      background-color: green;
+    }
+  }
+  
+  @media (min-width: 577px) and (max-width: 767px) {
+    body {
+      background-color: cyan;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    body {
+      background-color: blue;
+    }
+  }
+  
